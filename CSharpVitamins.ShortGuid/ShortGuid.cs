@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace CSharpVitamins
 {
@@ -23,7 +22,6 @@ namespace CSharpVitamins
     ///
     /// <para>Stick with version 1.1.0 if you require the old behaviour with opt-in strict parsing.</para>
     /// </remarks>
-    [DebuggerDisplay("{Value}")]
     public struct ShortGuid
     {
         /// <summary>
